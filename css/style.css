@@ -1,1 +1,35 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.head1 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.title {
+  display: flex;
+  align-items: baseline;
+  background-color: white;
+  border: none;
+  color: #325fec;
+  padding: 8px 16px 8px 8px;
+  font-size: 16px;
+  cursor: pointer;
+  border-style: solid;
+  border-color: #f2f2f2;
+  border-radius: 29px 29px 29px 29px;
+  background-image: radial-gradient(red, yellow, green);
+}
+
+.content {
+  padding: 5px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.exp {
+  background-color: grey;
+}/*# sourceMappingURL=style.css.map */
